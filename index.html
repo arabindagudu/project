@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Cloud Warzone </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.JPG"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>WAR CLOUDZONE</h1>
+                <p>
+                    This website only for AWS and DEVOPS information.
+                </p>
+                <a href="" class="hero-btn">Vist Us to Know More</a>
+            </div>
+        </section>
+                                                            
+<!---------Discuss topic1 AWS---------->
+        <section class="topic1">
+            <h1>AWS Topic</h1>
+            <p>The AWS all Services</p>
+            <div class="row">
+                <div class="topic-aws">
+                    <h3>Neworking</h3>
+                    <p>All the Network services of AWS are discussed </p>
+                </div>
+                <div class="topic-aws">
+                    <h3>Computing</h3>
+                    <p>All the Computing services of AWS are discussed </p>
+                </div>
+                <div class="topic-aws">
+                    <h3>Storage</h3>
+                    <p>All the Storage services of AWS are discused </p>
+                </div>
+            </div>
+        </section>
+<!---------Discuss topic2 DEVOPS---------->
+        <section class="topic2">
+            <h1>Devops Topic</h1>
+            <p>The DEVOPS all tools</p>
+
+            <div class="row">
+                <div class="topic-dev">
+                    <h3>CI/CD & VCS</h3>
+                    <p>All the DEVOPS tools are discussed </p>
+                </div>
+                <div class="topic-dev">
+                    <h3>Configuration Management</h3>
+                    <p>All the PUSH & PULL based CM tools of DEVOPS are discussed </p>
+                </div>
+                <div class="topic-dev">
+                    <h3>Monitoring</h3>
+                    <p>All the Monitoring tools of DEVOPS are discused </p>
+                </div>
+            </div>   
+        </section>
+
+<!----Future Facilities---->
+        <section class="facilities">
+            <h1>Our Future Zone</h1>
+            <p>In the future days we will discuss all the AWS and DEVOPS related topics</p>
+
+        </section>
+
+                                                    
+<!-------Review----->
+        <section class="review">
+        <h1>Feedback From You Guys</h1>
+        <p>We all need people who will give us feedback. That<sup>'</sup>s how we improve</p>
+        </section>
+
+<!------Call To Action------>
+
+        <section class="cta">
+            <h1>Anywhere From The World</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+<!------Footer------>
+
+        <section class="footer">
+        <h2>About Us</h2>
+        <p>Free yourself from servers by moving to the Cloud</p>
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by warzone</p>
+         </section>
+
+
+<!---------Java script for toggle menu--------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
